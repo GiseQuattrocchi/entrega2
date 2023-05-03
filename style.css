@@ -1,0 +1,63 @@
+@import url(https://www.vendemmiajoyero.com.ar/assets/vendemmia/images/vendemmialogo.png);
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
+  font-size: 20px;
+}
+body {
+  background-color: #eddcd2;
+}
+.header {
+  background-color: #1e4d2b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100;
+  padding: 60px 10%;
+}
+
+.header .logo img {
+  height: 150px;
+  width: auto;
+  transition: all 0.9;
+}
+.header .nav-links li {
+  display: inline-block;
+  padding: scale (1.1);
+}
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+.header .nav-links {
+  list-style: none;
+}
+.header.nav-links li {
+  display: inline-block;
+  padding: 0 30px;
+}
+.header .nav-links li:hover {
+  transform: 1.1;
+}
+.header.nav-links a {
+  font-size: 500;
+  color: #e0afa0;
+  text-decoration: none;
+}
+.header .btn button {
+  margin-left: 50px;
+  font-weight: 400;
+  color: #111110;
+  padding: 5px 15px;
+  background: white;
+  border: #111110;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5 ease 0.3;
+}
+.header .btn button:hover {
+  background-color: #c8c6ff;
+  color: #f8fafa;
+  transform: scale(1.1);
+}
